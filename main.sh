@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 time ruby main.rb
 time ruby main.rb -g
 mkdir -p profile
