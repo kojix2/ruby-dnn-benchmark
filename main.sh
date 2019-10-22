@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+ruby downloader.rb
 time ruby main.rb
 time ruby main.rb -g
 mkdir -p profile
