@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'dnn'
+require 'dnn/datasets/mnist'
 
 include DNN::Models
 include DNN::Layers
