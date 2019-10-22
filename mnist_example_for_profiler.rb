@@ -2,11 +2,11 @@
 
 require 'dnn'
 
+include DNN::Models
 include DNN::Layers
-include DNN::Activations
 include DNN::Optimizers
 include DNN::Losses
-include DNN::Models
+MNIST = DNN::MNIST
 
 x_train = SFloat.cast Marshal.load(File.binread('x_train.dat'))
 x_test  = SFloat.cast Marshal.load(File.binread('x_test.dat'))
